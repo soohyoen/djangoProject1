@@ -8,6 +8,7 @@ from projectapp.models import Project
 class Article(models.Model):
     writer = models.ForeignKey(User, on_delete=models.SET_NULL,
                                related_name='article', null=True)
+
     project = models.ForeignKey(Project,on_delete=models.SET_NULL,
                                 related_name='article', null=True)
 
