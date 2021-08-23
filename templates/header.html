@@ -9,7 +9,20 @@
                 Articles
             </a>
         </span>
-        <span><a href="{% url 'projectapp:list' %}">Projects</a></span>
+        <span><a href="{% url 'projectapp:list' %}">
+                Projects
+        </a></span>
+
+        {% if user.is_authenticated %}
+        <span>
+            <a href="{% url 'subscribeapp:list' %}">
+                subscribe
+            </a>
+        </span>
+
+
+        {% endif %}
+
 
 
         {% if not user.is_authenticated %}
