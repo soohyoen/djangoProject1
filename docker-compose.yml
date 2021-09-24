@@ -18,7 +18,7 @@ services:
     volumes:
       - django_static:/data/static/
       - django_media:/data/media/
-      - /home/ubuntu/nginx.conf:/etc/nginx/nginx.conf
+      - /home/s74420995/nginx.conf:/etc/nginx/nginx.conf
 
     ports:
       - 80:80
