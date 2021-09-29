@@ -1,0 +1,8 @@
+10.0.0.2 - - [27/Sep/2021:06:39:21 +0000] "GET / HTTP/1.1" 200 3708 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+10.0.0.2 - - [27/Sep/2021:06:39:29 +0000] "GET /projects/list/ HTTP/1.1" 200 3588 "http://35.203.172.238/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+10.0.0.2 - - [27/Sep/2021:06:47:10 +0000] "GET / HTTP/1.0" 200 3708 "-" "-"
+10.0.0.2 - - [27/Sep/2021:06:52:06 +0000] "GET / HTTP/1.0" 200 3708 "-" "-"
+10.0.0.2 - - [27/Sep/2021:06:53:30 +0000] "GET /accounts/login/ HTTP/1.1" 200 3650 "http://35.203.172.238/projects/list/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+10.0.0.2 - - [27/Sep/2021:06:53:30 +0000] "GET /projects/list/ HTTP/1.1" 200 3588 "http://35.203.172.238/accounts/login/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+10.0.0.2 - - [27/Sep/2021:06:53:31 +0000] "GET /article/list/ HTTP/1.1" 200 3708 "http://35.203.172.238/projects/list/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"
+10.0.0.2 - - [27/Sep/2021:06:53:32 +0000] "GET /projects/list/ HTTP/1.1" 200 3588 "http://35.203.172.238/article/list/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36"

@@ -18,6 +18,7 @@ services:
     volumes:
       - django_static:/data/static/
       - django_media:/data/media/
+      - gis_log:/var/log/nginx/
       - /home/s74420995/nginx.conf:/etc/nginx/nginx.conf
 
     ports:
@@ -45,6 +46,7 @@ volumes:
   django_static:
   django_media:
   django_maria:
+  gis_log:
 
 secrets:
   DJANGO_SECRET_KEY:
